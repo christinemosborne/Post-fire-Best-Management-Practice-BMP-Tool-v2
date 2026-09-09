@@ -71,7 +71,7 @@ body{
 .brand-mark{
   font-family: var(--mono);
   font-weight: 600;
-  font-size: 13px;
+  font-size: 15px;
   letter-spacing: 0.06em;
   background: var(--ink);
   color: var(--parchment);
@@ -80,22 +80,22 @@ body{
   line-height: 1;
 }
 .brand-text{ display:flex; flex-direction:column; line-height:1.25; }
-.brand-title{ font-family: var(--serif); font-weight:600; font-size: 17px; }
-.brand-sub{ font-size: 12px; color: var(--ink-faint); }
+.brand-title{ font-family: var(--serif); font-weight:600; font-size: 19.5px; }
+.brand-sub{ font-size: 13.5px; color: var(--ink-faint); }
 
 .site-footer{
   max-width: 1080px;
   margin: 40px auto 0;
   padding: 20px 24px 48px;
   color: var(--ink-faint);
-  font-size: 12.5px;
+  font-size: 14px;
   border-top: 1px solid var(--line);
 }
 
 /* ===================== Buttons ===================== */
 .btn-primary, .btn-ghost, .btn-back{
   font-family: var(--sans);
-  font-size: 14.5px;
+  font-size: 18px;
   font-weight: 600;
   cursor: pointer;
   border-radius: 8px;
@@ -105,7 +105,7 @@ body{
   background: var(--ember);
   color: #fff;
   border: 1px solid var(--ember);
-  padding: 12px 22px;
+  padding: 14px 26px;
 }
 .btn-primary:hover{ background: var(--ember-dark); border-color: var(--ember-dark); }
 .btn-primary:active{ transform: scale(0.98); }
@@ -114,7 +114,7 @@ body{
   background: transparent;
   color: var(--ink);
   border: 1px solid var(--line-strong);
-  padding: 10px 16px;
+  padding: 12px 20px;
 }
 .btn-ghost:hover{ border-color: var(--ink); }
 
@@ -123,7 +123,7 @@ body{
   border: none;
   color: var(--slate);
   padding: 0;
-  font-size: 14px;
+  font-size: 17.5px;
   margin-bottom: 14px;
 }
 .btn-back:hover{ text-decoration: underline; }
@@ -140,19 +140,19 @@ main#app{
   font-family: var(--mono);
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  font-size: 12px;
+  font-size: 14.5px;
   color: var(--ember-dark);
   margin: 0 0 10px;
 }
 h1{
   font-family: var(--serif);
-  font-size: clamp(26px, 4vw, 38px);
+  font-size: clamp(30px, 4.4vw, 44px);
   font-weight: 600;
   margin: 0 0 14px;
   max-width: 22ch;
 }
 .intro{ max-width: 720px; margin-bottom: 36px; }
-.intro-copy{ color: var(--ink-soft); max-width: 62ch; font-size: 15.5px; }
+.intro-copy{ color: var(--ink-soft); max-width: 62ch; font-size: 17.5px; }
 
 /* ===================== Category cards ===================== */
 .category-grid{
@@ -186,17 +186,17 @@ h1{
 }
 .category-card h3{
   font-family: var(--serif);
-  font-size: 20px;
+  font-size: 24.5px;
   margin: 0 0 8px;
 }
 .category-card p{
   color: var(--ink-soft);
-  font-size: 14px;
+  font-size: 16px;
   margin: 0 0 16px;
 }
 .category-card .cat-meta{
   font-family: var(--mono);
-  font-size: 11.5px;
+  font-size: 13px;
   color: var(--ink-faint);
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -223,7 +223,7 @@ h1{
 .param-field.is-set{ border-color: var(--slate); background: var(--slate-soft); }
 .param-field label{
   display:block;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 600;
   margin-bottom: 8px;
   color: var(--ink);
@@ -231,8 +231,8 @@ h1{
 .param-field select{
   width: 100%;
   font-family: var(--sans);
-  font-size: 14.5px;
-  padding: 9px 10px;
+  font-size: 18px;
+  padding: 11px 12px;
   border-radius: 7px;
   border: 1px solid var(--line-strong);
   background: #fff;
@@ -254,7 +254,7 @@ h1{
   gap: 18px;
   flex-wrap: wrap;
   margin: 18px 0 24px;
-  font-size: 13px;
+  font-size: 16px;
   color: var(--ink-soft);
 }
 .legend span{ display:flex; align-items:center; gap:7px; }
@@ -267,7 +267,7 @@ h1{
 .group-heading{
   font-family: var(--mono);
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 14.5px;
   letter-spacing: 0.07em;
   color: var(--ink-faint);
   margin: 24px 0 4px;
@@ -297,13 +297,13 @@ h1{
 .bmp-rank{
   font-family: var(--mono);
   color: var(--ink-faint);
-  font-size: 13px;
+  font-size: 16px;
   width: 22px;
   flex-shrink: 0;
 }
 .bmp-name-block{ flex: 1; min-width: 0; }
-.bmp-name{ font-weight: 600; font-size: 15.5px; }
-.bmp-sub{ font-size: 12.5px; color: var(--ink-faint); margin-top: 2px; }
+.bmp-name{ font-weight: 600; font-size: 17.5px; }
+.bmp-sub{ font-size: 14px; color: var(--ink-faint); margin-top: 2px; }
 .bmp-score-wrap{
   display:flex;
   align-items:center;
@@ -336,7 +336,7 @@ h1{
 
 .bmp-score-num{
   font-family: var(--mono);
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 600;
   width: 34px;
   text-align: right;
@@ -365,19 +365,19 @@ h1{
 .detail-item h4{
   font-family: var(--mono);
   text-transform: uppercase;
-  font-size: 11px;
+  font-size: 13.5px;
   letter-spacing: 0.05em;
   color: var(--ink-faint);
   margin: 0 0 5px;
 }
-.detail-item p{ margin:0; font-size: 13.5px; color: var(--ink); }
-.detail-sources{ margin-top: 4px; font-size: 12.5px; }
+.detail-item p{ margin:0; font-size: 15.5px; color: var(--ink); }
+.detail-sources{ margin-top: 4px; font-size: 14px; }
 .detail-sources a{ color: var(--slate); }
 .score-breakdown{
   margin-top: 14px;
   padding-top: 12px;
   border-top: 1px dashed var(--line-strong);
-  font-size: 12.5px;
+  font-size: 14px;
   color: var(--ink-soft);
 }
 .score-breakdown span{ display:inline-block; margin: 2px 12px 2px 0; }
@@ -408,10 +408,10 @@ h1{
   overflow-y: auto;
 }
 .modal h2{ font-family: var(--serif); margin-top:0; }
-.modal p{ color: var(--ink-soft); font-size: 14.5px; }
+.modal p{ color: var(--ink-soft); font-size: 16.5px; }
 .modal-close{
   position:absolute; top:16px; right:16px;
-  background:none; border:none; font-size:22px; cursor:pointer; color: var(--ink-faint);
+  background:none; border:none; font-size: 25px; cursor:pointer; color: var(--ink-faint);
 }
 
 @media (prefers-reduced-motion: reduce){
